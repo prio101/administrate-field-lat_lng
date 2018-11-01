@@ -48,12 +48,12 @@ module Administrate
 
       # Returns the initial co-ordinates of blank maps (defaults to Leeds, UK)
       def initial
-        options.fetch(:initial, [53.8003,-1.5519])
+        options.fetch(:initial, [23.777176, 90.399452] )
       end
 
       # Returns the initial zoom level for maps (defaults to 11)
       def zoom
-        options.fetch(:zoom, 11)
+        options.fetch(:zoom, 5)
       end
 
       def to_s
